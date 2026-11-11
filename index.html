@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Dla sprzedawców Allegro wysyłających na allegro.cz, .sk i .hu: waga opakowań według materiałów i kraju i dane do sprawozdań EPR.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">EPR Paczka</a></div>
-  <nav class="top"><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">EPR Paczka</a>
+  <nav><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Opakowania wysłane do Czech, Słowacji i Węgier policzone z Twoich zamówień — co kwartał</h1>
-    <p class="sub">Dla sprzedawców Allegro wysyłających na allegro.cz, allegro.sk i allegro.hu: program liczy z zamówień wagę opakowań według materiałów dla każdego kraju i przygotowuje dane do sprawozdania dla organizacji EPR, takich jak EKO-KOM, NATUR-PACK lub ENVI-PAK i MOHU.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
-    <p class="cta-note">Wczesny dostęp · Na tej stronie nie pobieramy jeszcze płatności</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Dla sprzedawców Allegro</p>
+      <h1 class="rise" style="--i:1" data-len="long">Opakowania wysłane do Czech, Słowacji i Węgier policzone z Twoich zamówień&nbsp;<span class="soft">— co kwartał</span></h1>
+      <p class="rise" style="--i:2">Dla sprzedawców Allegro wysyłających na allegro.cz, allegro.sk i allegro.hu: program liczy z zamówień wagę opakowań według materiałów dla każdego kraju i przygotowuje dane do sprawozdania dla organizacji EPR, takich jak EKO-KOM, NATUR-PACK lub ENVI-PAK i MOHU.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
+      <p class="meta rise" style="--i:4">Wczesny dostęp · Na tej stronie nie pobieramy jeszcze płatności</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="36" fill="#0a1524" font-weight="600">Opakowania wysłane</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="292" font-size="32" fill="#0a1524">co kwartał</text><rect x="130" y="370" width="44" height="44" fill="#12397a" rx="8" /><text x="200" y="402" font-size="32" fill="#0a1524">Karton, folia</text><rect x="130" y="480" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="512" font-size="32" fill="#0a1524">Przypomnienia</text><rect x="700" y="260" width="380" height="400" fill="#dfe8f7" rx="20" /><text x="730" y="320" font-size="32" fill="#0a1524" font-weight="600">Wczesny dostęp</text><rect x="740" y="420" width="48" height="200" fill="#ffffff" rx="8" /><rect x="820" y="480" width="48" height="140" fill="#12397a" rx="8" /><rect x="900" y="380" width="48" height="240" fill="#ffffff" rx="8" /><rect x="980" y="520" width="48" height="100" fill="#ffffff" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Dla</dt><dd>Sprzedawców Allegro</dd></div>
+      <div><dt>Opakowania</dt><dd>Wagę opakowań według materiałów</dd></div>
+      <div><dt>Kwartał</dt><dd>Co kwartał</dd></div>
+      <div><dt>Dostęp</dt><dd>Wczesny dostęp</dd></div>
+    </dl>
+  </section>
 
   <section id="co" data-view="features_view">
-    <h2>Co dostajesz</h2>
-    <div class="grid">
-      <div class="card"><b>Zamówienia według kraju</b><span>Zamówienia z dostawą do Czech, Słowacji i na Węgry, osobno dla każdego kraju.</span><br><a class="btn" href="price.html" data-ev="feature_zamowienia">Tego potrzebuję</a></div>
-      <div class="card"><b>Opakowania według materiałów</b><span>Karton, folia, wypełniacz — waga każdego materiału na podstawie Twoich opakowań.</span><br><a class="btn" href="price.html" data-ev="feature_opakowania">Tego potrzebuję</a></div>
-      <div class="card"><b>Dane do sprawozdania</b><span>Sumy za kwartał w podziale wymaganym przez organizację EPR kraju.</span><br><a class="btn" href="price.html" data-ev="feature_sprawozdanie">Tego potrzebuję</a></div>
-      <div class="card"><b>Przypomnienia</b><span>Przypomnienie przed końcem każdego okresu sprawozdawczego.</span><br><a class="btn" href="price.html" data-ev="feature_przypomnienia">Tego potrzebuję</a></div>
+    <div class="stack"><h2>Co dostajesz</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="32" fill="#0a1524" font-weight="600">każdego kraju</text><rect x="110" y="200" width="40" height="40" fill="#dfe8f7" rx="8" /><polyline points="118,222 128,232 142,212" fill="none" stroke="#12397a" stroke-width="4" /><text x="170" y="230" font-size="30" fill="#0a1524">na Węgry</text><rect x="110" y="310" width="40" height="40" fill="#dfe8f7" rx="8" /><polyline points="118,332 128,342 142,322" fill="none" stroke="#12397a" stroke-width="4" /><text x="170" y="340" font-size="30" fill="#0a1524">osobno</text><rect x="170" y="470" width="220" height="16" fill="#dde2ea" rx="8" /><rect x="410" y="470" width="140" height="16" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Zamówienia według kraju</h3><p>Zamówienia z dostawą do Czech, Słowacji i na Węgry, osobno dla każdego kraju.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_zamowienia">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="120" y="70" width="520" height="460" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><text x="160" y="140" font-size="32" fill="#0a1524" font-weight="600">Karton</text><text x="160" y="200" font-size="30" fill="#566174">wypełniacz</text><rect x="160" y="250" width="360" height="18" fill="#dde2ea" rx="8" /><rect x="160" y="290" width="280" height="18" fill="#b9c3d2" rx="8" /><rect x="160" y="330" width="400" height="18" fill="#dde2ea" rx="8" /><rect x="160" y="370" width="180" height="18" fill="#b9c3d2" rx="8" /><circle cx="560" cy="450" r="36" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><polyline points="540,450 554,466 584,430" fill="none" stroke="#12397a" stroke-width="5" /></svg></div>
+        <h3>Opakowania według materiałów</h3><p>Karton, folia, wypełniacz — waga każdego materiału na podstawie Twoich opakowań.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_opakowania">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="110" width="250" height="380" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="490" y="110" width="250" height="380" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><text x="84" y="170" font-size="30" fill="#0a1524" font-weight="600">sprawozdania</text><text x="514" y="170" font-size="30" fill="#0a1524" font-weight="600">kwartał</text><rect x="84" y="220" width="180" height="16" fill="#dde2ea" rx="8" /><rect x="84" y="260" width="140" height="16" fill="#b9c3d2" rx="8" /><rect x="84" y="300" width="160" height="16" fill="#dde2ea" rx="8" /><rect x="514" y="220" width="170" height="16" fill="#dde2ea" rx="8" /><rect x="514" y="260" width="120" height="16" fill="#12397a" rx="8" /><rect x="514" y="300" width="190" height="16" fill="#b9c3d2" rx="8" /><polygon points="330,280 400,280 400,264 450,292 400,320 400,304 330,304" fill="#12397a" /></svg></div>
+        <h3>Dane do sprawozdania</h3><p>Sumy za kwartał w podziale wymaganym przez organizację EPR kraju.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_sprawozdanie">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="32" fill="#0a1524" font-weight="600">Przypomnienia</text><rect x="110" y="190" width="500" height="64" fill="#dfe8f7" rx="28" stroke="#12397a" stroke-width="4" /><rect x="130" y="206" width="28" height="32" fill="#12397a" rx="6" /><text x="176" y="232" font-size="30" fill="#0a1524">każdego okresu</text><rect x="110" y="290" width="500" height="64" fill="#dfe8f7" rx="28" /><rect x="130" y="306" width="28" height="32" fill="#b9c3d2" rx="6" /><text x="176" y="332" font-size="30" fill="#0a1524">przed końcem</text></svg></div>
+        <h3>Przypomnienia</h3><p>Przypomnienie przed końcem każdego okresu sprawozdawczego.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_przypomnienia">Tego potrzebuję</a>
+      </article>
     </div>
   </section>
 
-  <section id="przyklad" data-view="example_view">
-    <h2>Przykład (dane fikcyjne)</h2>
-    <p class="fine">Sklep z akcesoriami domowymi, 1 400 zamówień na kwartał do Czech, 600 na Słowację, 300 na Węgry. Trzy rodzaje kartonów i folia bąbelkowa opisane raz. Na koniec kwartału: waga kartonu, folii i papieru dla każdego kraju, gotowa do przeniesienia do sprawozdania.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+  <section id="przyklad" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Przykład</h2>
+      <p>Sklep z akcesoriami domowymi, 1 400 zamówień na kwartał do Czech, 600 na Słowację, 300 na Węgry. Trzy rodzaje kartonów i folia bąbelkowa opisane raz. Na koniec kwartału: waga kartonu, folii i papieru dla każdego kraju, gotowa do przeniesienia do sprawozdania.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Czech</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Słowację</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Węgry</text><rect x="120" y="300" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" fill="#0a1524" font-weight="600">waga kartonu</text><text x="170" y="460" font-size="32" fill="#566174">sprawozdania</text><rect x="170" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="260" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="350" y="530" width="64" height="64" fill="#12397a" rx="12" /><rect x="440" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="530" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="620" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Jak to działa</h2>
-    <p>Polska firma, która sprzedaje na allegro.cz, allegro.sk i allegro.hu, wysyła paczki do klientów w innym kraju. Opakowania tych paczek trafiają na rynek tego kraju, a sprzedawcy opisują na forach, że Allegro wymaga od nich rozliczenia opakowań z organizacją odzysku w każdym kraju. Co kwartał trzeba więc policzyć, ile kartonu, folii i papieru wysłano do Czech, Słowacji i na Węgry. EPR Paczka liczy to z Twoich zamówień.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Jak to działa</h2></div>
+    <div class="stack">
+      <p>Polska firma, która sprzedaje na allegro.cz, allegro.sk i allegro.hu, wysyła paczki do klientów w innym kraju. Opakowania tych paczek trafiają na rynek tego kraju, a sprzedawcy opisują na forach, że Allegro wymaga od nich rozliczenia opakowań z organizacją odzysku w każdym kraju. Co kwartał trzeba więc policzyć, ile kartonu, folii i papieru wysłano do Czech, Słowacji i na Węgry. EPR Paczka liczy to z Twoich zamówień.</p>
     <p>Najpierw opisujesz swoje opakowania: rodzaje kartonów, kopert, folii i wypełniaczy, których używasz, i wagę każdego materiału. Wystarczy zważyć każdy rodzaj opakowania raz. Potem przypisujesz opakowania do produktów albo do rodzajów zamówień — na przykład mały karton dla pojedynczego produktu, duży dla zestawów.</p>
     <p>Zamówienia pobierasz z Allegro albo wgrywasz z pliku. Program rozdziela je według kraju dostawy i liczy, ile każdego materiału opakowaniowego wysłano do każdego kraju. Jeśli sprzedajesz także elektronikę lub baterie, możesz je oznaczyć przy produktach, aby ich ilości były policzone osobno.</p>
     <p>Na koniec kwartału otrzymujesz dla każdego kraju sumy w podziale na materiały, gotowe do przeniesienia do sprawozdania dla organizacji, z którą masz umowę w danym kraju. Zestawienie można pobrać jako plik i przekazać firmie, która składa sprawozdanie w Twoim imieniu.</p>
@@ -115,31 +149,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Jeśli pakujesz różne produkty w różne opakowania, możesz ustawić reguły: na przykład produkty z określonej kategorii zawsze idą w małym kartonie, a zamówienia powyżej trzech sztuk w dużym. Reguły wystarczy ustawić raz, a każde nowe zamówienie jest liczone automatycznie. Zamówienia, do których program nie potrafi przypisać opakowania, pokazuje osobno, abyś mógł je uzupełnić przed końcem kwartału.</p>
     <p>Zwroty z Czech, Słowacji i Węgier możesz oznaczyć przy zamówieniu, aby nie zawyżały ilości. Na koniec roku program podsumowuje cztery kwartały dla każdego kraju, co przydaje się przy rocznym rozliczeniu z organizacją odzysku i przy planowaniu kosztów sprzedaży zagranicznej na kolejny rok.</p>
     <p>EPR Paczka nie jest organizacją odzysku i nie zawiera umów w Twoim imieniu. Za rejestrację, umowy i złożenie sprawozdań odpowiada sprzedawca; program przygotowuje dane.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pytania i odpowiedzi</h2>
-    <h3>Dla kogo jest EPR Paczka?</h3>
-    <p>Dla polskich sprzedawców Allegro wysyłających na allegro.cz, allegro.sk i allegro.hu.</p>
-    <h3>Skąd program bierze dane?</h3>
-    <p>Z Twoich zamówień w Allegro i z opisu opakowań, który wprowadzasz raz.</p>
-    <h3>Czy składacie sprawozdanie za mnie?</h3>
-    <p>Nie. Przygotowujemy dane; sprawozdanie składa sprzedawca lub jego pełnomocnik.</p>
-    <h3>Czy liczy elektronikę i baterie?</h3>
-    <p>Tak, jeśli oznaczysz je przy produktach.</p>
-    <h3>Czy mogę już korzystać?</h3>
-    <p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy sprzedawcy jej potrzebują.</p>
+    <div class="stack"><h2>Pytania i odpowiedzi</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Dla kogo jest EPR Paczka?</h3><p>Dla polskich sprzedawców Allegro wysyłających na allegro.cz, allegro.sk i allegro.hu.</p></div>
+      <div class="split flip"><h3>Skąd program bierze dane?</h3><p>Z Twoich zamówień w Allegro i z opisu opakowań, który wprowadzasz raz.</p></div>
+      <div class="split flip"><h3>Czy składacie sprawozdanie za mnie?</h3><p>Nie. Przygotowujemy dane; sprawozdanie składa sprzedawca lub jego pełnomocnik.</p></div>
+      <div class="split flip"><h3>Czy liczy elektronikę i baterie?</h3><p>Tak, jeśli oznaczysz je przy produktach.</p></div>
+      <div class="split flip"><h3>Czy mogę już korzystać?</h3><p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy sprzedawcy jej potrzebują.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Dodaj swój sklep</h2>
-    <p><label>Kraje wysyłki<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— wybierz —</option><option>Czechy</option><option>Słowacja</option><option>Węgry</option><option>Wszystkie trzy</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Dodaj sklep</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Dodaj swój sklep</h2>
+    </div>
+    <div class="tile stack">
+      <label>Kraje wysyłki<select data-ev-focus="form_start"><option value="">— wybierz —</option><option>Czechy</option><option>Słowacja</option><option>Węgry</option><option>Wszystkie trzy</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Dodaj sklep</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>EPR Paczka</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Polityka prywatności</a></p>
-  <p class="muted">EPR Paczka nie jest organizacją odzysku i nie zawiera umów w imieniu sprzedawcy. Program przygotowuje dane do sprawozdań.</p>
+  <p>EPR Paczka nie jest organizacją odzysku i nie zawiera umów w imieniu sprzedawcy. Program przygotowuje dane do sprawozdań.</p>
 </div></footer>
 
 </body>
